@@ -1,6 +1,6 @@
 Working document for scope of the project:
 
-Tchnologies:
+Technologies:
     MDNS / Bonjour - Network layer, lets device act as "Screamers" and Server to act as "Listener"
         Node package - MDNS.listen to see current listeners
     User only accesses through LAN 
