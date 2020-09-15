@@ -18,6 +18,7 @@
   "main": "index.js",
   "types": "dist/index",
   "scripts": {
+    "setup": "npm install",
     "clean": "",
     "format": "prettier --write \"{src,__tests__}/**/*.ts\" --single-quote --trailing-comma es5",
     "lint": "tslint --force --format verbose \"src/**/*.ts\"",
@@ -31,10 +32,12 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@types/bonjour": "^3.5.6",
+    "@types/dnssd": "^0.4.1",
     "@types/express": "^4.17.8",
-    "@types/mdns": "0.0.33",
-    "express": "^4.17.1",
-    "mdns": "^2.5.1"
+    "bonjour": "^3.5.0",
+    "dnssd": "^0.4.1",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@types/jest": "^23.3.3",
